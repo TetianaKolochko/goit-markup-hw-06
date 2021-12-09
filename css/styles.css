@@ -308,6 +308,44 @@ a {
   color: var(--title-text-color);
 }
 
+.modal-name {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.modal-tel {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.modal-email {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.modal-input-text {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
 .modal-form-field {
   margin-bottom: 10px;
 }
@@ -348,6 +386,9 @@ a {
   fill: var(--accent-color);
 }
 
+.modal-checkbox {
+  margin-bottom: 30px;
+}
 .button-submit {
   display: block;
   margin: 0 auto;
@@ -382,6 +423,7 @@ a {
 }
 
 .modal-text {
+  display: block;
   padding: 12px 16px;
   width: 100%;
   height: 100%;
@@ -405,7 +447,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+
   align-items: center;
   font-family: Roboto;
   font-style: normal;
@@ -784,6 +826,10 @@ img {
   color: var(--accent-color);
 }
 
+.footer-contacts {
+  flex-grow: 1;
+}
+
 .footer-contact {
   font-style: normal;
   font-family: Roboto;
@@ -915,6 +961,7 @@ img {
 }
 
 .button-footer {
+  display: inline-flex;
   margin-left: 12px;
   padding: 10px 28px;
   min-width: 200px;
